@@ -7,7 +7,7 @@ public class Person {
         this.lastName = lastName;
     }
 
-    private String info(){
+    public String info(){
         return String.format("%s %s",this.firstName,this.lastName);
     }
 
