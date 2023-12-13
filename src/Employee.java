@@ -5,4 +5,9 @@ public class Employee  extends Person{
         super(firstName, lastName);
         this.salary = salary;
     }
+
+    @Override
+    public String info(){
+        return super.info()+" "+this.salary;
+    }
 }
